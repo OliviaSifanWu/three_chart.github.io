@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Charts</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>People Killed by the Police Officers in the US in 2015</h1>
+  <p>
+    I used a line chart to show the number of people killed by the police officers in each days to find out is there a peak day. 
+    Looking at ring chart, I can see the share of males and females in the total number of cases. I also used a bar chart to show the distribute
+    of the cases in different states.
+  </p>
+  <p>I counted the number of people killed in each days, genders and each states for graphing.</p>
+  <div id="container1">
+    <h2>Number of People Killed by Police in a Day</h2>
+   <div id="chart1" class="line"></div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="line.js"></script>
+  <div id="container2">
+    <h2>Number of People Killed by Policy by Gender</h2>
+   <div id="chart2" clss="ring"></div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="ring.js"></script>
+  <div id="container3">
+    <h2>Number of People Killed by Police in each State</h2>
+   <div id="chart3" class="bar"></div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="vertical_bar.js"></script>
+</body>
+
+</html>
